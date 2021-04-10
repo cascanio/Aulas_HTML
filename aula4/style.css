@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    width: 883px;
+}
+#mainTitle {
+    font-weight: bold; font-size: 89px; line-height: 79px; color: #ffb300; text-align: left;
+}
+.author {
+    font-size: 21px; color: black; font-weight: bold; text-align: right; 
+}
+.descripcao {
+    font-size: 21px; font-weight: 400; line-height: 1.61; color: black; 
+}
+#espacobottom {
+    padding-bottom: 34px;
+}
+
+#espacotop {
+    padding-top: 34px;
+}
+
+.azul {
+    font-size: 21px; font-weight: bold; color: #0037b3;
+}
+
+.texto {
+    font-size: 21px; font-weight: 500; line-height: 21px*1.61;
+}
+
+
+
+
+
