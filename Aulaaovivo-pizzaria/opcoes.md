@@ -1,0 +1,22 @@
+- tamanhos (broto, média, família, gigante)
+- tipo de massa (fina, tradicional ,sem glúten [farinha de arroz, de aveia])
+- borda recheada
+- tipo de queijo (gorgonzola, muzzarela, ...)
+- molho (tomate, branco, verde, pimenta)
+- sabores (
+salgadas:
+- presunto
+- peperoni
+- champgnon
+- bacon
+- frango com catupiry
+- milho
+- calabresa 
+- abacaxi
+- lombo
+--- 
+doces:
+- doce de leite
+- banana com canela
+- chocolate
+- sorvete

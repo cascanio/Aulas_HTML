@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MundiPizza</title>
+</head>
+<body>
+    <header>
+        <section id="fundo-header">
+            <div>
+                <h1>MundiPizza</h1>
+                <a href="#">Monte sua Pizza</a>
+            </div>
+
+            <div>
+                <nav>
+                    <a href="#"><img src="facebook.PNG" alt="Facebook" height="50px"></a>
+                    <a href="#"><img src="whatsapp.PNG" alt="Whatsapp" height="50px"></a>
+                    <a href="#"><img src="instagram.PNG" alt="Instagram" height="50px"></a>
+                </nav>
+
+                <p>Comprometidos com o cuidado do ambiente
+                    <img src="ambiente.png" alt="Compromisso com o Meio Ambiente" height="30px">
+                </p>
+            </div>
+        </section>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre a Pizzaria</a>
+            <a href="#">Cardápio</a>
+            <a href="#">Contato</a>
+            <a href="#">Fotos</a>
+            <a href="#">Eventos</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <section>
+                <h2>Promoções</h2>
+    
+                <article>
+                    <img src="pizza.png" alt="Descrição" height="50px">
+                    <strong>R$ 00,00</strong>
+                    <h3>Nome do sabor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam esse numquam vero perferendis, iure dolorum.
+                    </p>
+                </article>
+                <article>
+                    <img src="pizza.png" alt="Descrição" height="50px">
+                    <strong>R$ 00,00</strong>
+                    <h3>Nome do sabor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam esse numquam vero perferendis, iure dolorum.
+                    </p>
+                </article>
+    
+            </section>
+            <section>
+                <h2>Favorita da Semana</h2>
+                
+                <article>
+                    <img src="pizza.png" alt="Descrição" height="50px">
+                    <strong>R$ 00,00</strong>
+                    <h3>Nome do sabor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam esse numquam vero perferendis, iure dolorum.
+                    </p>
+                </article>
+            </section>    
+        </section>
+        <section>
+            <h2>Monte sua Pizza</h2>
+            <form method="POST" action="/pedido"> 
+                <!-- POST  -->
+                <fieldset>
+                    <legend>Tamanho da Pizza:</legend>
+                    <label>
+                        <input type="radio" name="tamanho" value="broto">
+                        Broto
+                    </label>
+                    <label>
+                        <input type="radio" name="tamanho" value="media">
+                        Média
+                    </label>
+                    <label>
+                        <input type="radio" name="tamanho" value="familia">
+                        Família
+                    </label>
+                    <label>
+                        <input type="radio" name="tamanho" value="gigante">
+                        Gigante
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Massa:</legend>
+                    <select name="massa">
+                        <option value="" disabled selected>Escolher tipo</option>
+                        <option value="fina">Fina</option>
+                        <option value="tradicional">Tradicional</option>
+                    </select>
+
+                    <label>
+                        <input type="checkbox" name="opt-massa" value="s-gluten">
+                        Sem glúten
+                    </label>
+
+                    <select name="farinha">
+                        <option value="" disabled selected>Escolher farinha</option>
+                        <option value="arroz">Farinha de arroz</option>
+                        <option value="aveia">Farinha de aveia</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Borda</legend>
+
+                    <label>
+                        <input type="checkbox" name="borda">
+                        Recheada
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tipo de Queijo</legend>
+                    <select name="queijo">
+                        <option value="gorgonzola">Gorgonzola</option>
+                        <option value="mucarela">Muçarela</option>
+                    </select>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Sabor da Pizza</legend>
+                    <h3>Salgadas</h3>
+                    <label>
+                        <input type="radio" name="sabor" value="presunto">
+                        Presunto
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="pepperoni">
+                        Pepperoni
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="champignon">
+                        Champignon
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="bacon">
+                        Bacon
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="frango-catupiry">
+                        Frango com Catupiry
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="milho">
+                        Milho
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="calabresa">
+                        Calabresa
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="abacaxi">
+                        Abacaxi
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="lombo">
+                        Lombo
+                    </label>
+                    <hr>
+                    <h3>Doces</h3>
+                    <label>
+                        <input type="radio" name="sabor" value="doce-de-leite">
+                        Doce de Leite
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="banana-com-canela">
+                        Banana com Canela
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="chocolate">
+                        Chocolate
+                    </label>
+                    <label>
+                        <input type="radio" name="sabor" value="sorvete">
+                        Sorvete
+                    </label>
+                </fieldset>
+                
+
+
+                <button type="submit">Pedir</button>
+                
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
